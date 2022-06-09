@@ -12,7 +12,7 @@ st.set_page_config(page_title='REAMS_APIs',
                    initial_sidebar_state='expanded')
 
 st.title('Asset Management')
-st.markdown(""" #### Please click on the menu to get links of demos associated with different use-cases
+st.markdown(""" #### Please click on the side-bar menu to get links of demos associated with different use-cases
 Note: The demos will open up in different tabs, after you click on the respective links
 """)
 # # 1. as sidebar menu
