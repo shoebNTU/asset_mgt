@@ -27,23 +27,27 @@ dict_links = {'AHP':'https://share.streamlit.io/shoebntu/ahp/main/Apps/app.py', 
      'Spares forecasting':'https://share.streamlit.io/ppplalala-wh/streamlit_app/main/resrcOpt.py',\
        'Predictive Maintenance':'https://share.streamlit.io/dhesru/condition_monitoring/main.py', \
            'Renewal Option Analysis':'https://share.streamlit.io/shoebntu/scheduling/moo_ahp.py', \
-               'Economic Optimal Life':'https://share.streamlit.io/shoebntu/eol/main/EOL.py'
+               'Economic Optimal Life':'https://share.streamlit.io/shoebntu/eol/main/EOL.py',\
+               'Smart Diagnostics':'https://share.streamlit.io/shoebntu/smart_rulemining/main/app_v2.py'
                }
 
 col1,col2 = st.columns([0.6,0.4])
+st.sidebar.image("./siemens_logo.png", width = 300)
 with st.sidebar:
-    selected = option_menu("", ["Menu", 'Reliability Modelling','Spares forecasting',\
+    
+    selected = option_menu("", ["Menu", 'Reliability Modelling','Smart Diagnostics','Spares forecasting',\
             'Predictive Maintenance','Economic Optimal Life','Renewal Option Analysis','AHP'], 
-            icons=['house', 'calendar3','bar-chart',\
+            icons=['house', 'calendar3','thermometer-sun','bar-chart',\
             'tools','currency-exchange','cart2','diagram-3'],
         menu_icon="cast", default_index=0, orientation="vertical",
         styles={
             "container": {"padding": "0!important", "background-color": "#fafafa"},
             "icon": {"color": "orange", "font-size": "20px"}, 
-            "nav-link": {"font-size": "20px", "text-align": "left", "margin":"10px", "--hover-color": "#eee"},
+            "nav-link": {"font-size": "20px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
             "nav-link-selected": {"background-color": "green"},
         }
     )
+    st.markdown("#### **Copyright &copy; 2022 DA REAMS, Siemens Mobility**")
 
 
 if 'Menu' not in selected:
