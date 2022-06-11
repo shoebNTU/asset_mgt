@@ -43,7 +43,7 @@ The key for Asset Management for rail systems is artificial intelligence based o
         st.image('pic2.png',caption='Portfolio as a Micro-Service: AI as a Service (AIaaS)')
 
     st.markdown("""
-    Demand for AIaaS is growing as businesses increasingly see the value it is creating for competitors. Industry figures suggest that the global market of AI as a service will hit US\\$10.88 billion by 2023, up from US\\$1.13 billion in 2017. However, it could potentially be much higher as it becomes more available    
+    Demand for AIaaS is growing as businesses increasingly see the value it is creating for competitors. Industry figures suggest that the global market of AI as a service will hit US\\$10.88 billion by 2023, up from US\\$1.13 billion in 2017. However, it could potentially be much higher as it becomes more available.    
         """)
 
 st.markdown(""" #### Please click on the side-bar menu to get links of demos associated with different use-cases
