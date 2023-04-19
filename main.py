@@ -60,6 +60,7 @@ dict_links = {'AHP':'https://share.streamlit.io/shoebntu/ahp/main/Apps/app.py', 
     'Reliability Modelling':'https://share.streamlit.io/msundarv/rel_pm/main/shift_pm_app.py', \
      'Spares forecasting':'https://share.streamlit.io/ppplalala-wh/streamlit_app/main/resrcOpt.py',\
        'Predictive Maintenance':'https://share.streamlit.io/dhesru/condition_monitoring/main.py', \
+       'Anomaly Detector': 'https://dhesru-anomaly-detector-main-fy7he1.streamlit.app/',\
            'Renewal Option Analysis':'https://share.streamlit.io/shoebntu/scheduling/moo_ahp.py', \
                'Economic Optimal Life':'https://share.streamlit.io/shoebntu/eol/main/EOL.py',\
                'Smart Diagnostics':'https://share.streamlit.io/shoebntu/smart_rulemining/main/app_v2.py'
@@ -70,9 +71,9 @@ st.sidebar.image("./siemens_logo.png", width = 300)
 with st.sidebar:
     
     selected = option_menu("", ["Menu", 'Reliability Modelling','Smart Diagnostics','Spares forecasting',\
-            'Predictive Maintenance','Economic Optimal Life','Renewal Option Analysis','AHP'], 
-            icons=['house', 'calendar3','thermometer-sun','bar-chart',\
-            'tools','currency-exchange','cart2','diagram-3'],
+            'Predictive Maintenance','Anomaly Detector','Economic Optimal Life','Renewal Option Analysis','AHP'], 
+            icons=['house', 'calendar3','thermomete4r-sun','bar-chart',\
+            'tools','activity','currency-exchange','cart2','diagram-3'],
         menu_icon="cast", default_index=0, orientation="vertical",
         styles={
             "container": {"padding": "0!important", "background-color": "#fafafa"},
