@@ -72,7 +72,7 @@ with st.sidebar:
     
     selected = option_menu("", ["Menu", 'Reliability Modelling','Smart Diagnostics','Spares forecasting',\
             'Predictive Maintenance','Anomaly Detector','Economic Optimal Life','Renewal Option Analysis','AHP'], 
-            icons=['house', 'calendar3','thermomete4r-sun','bar-chart',\
+            icons=['house', 'calendar3','thermometer-sun','bar-chart',\
             'tools','activity','currency-exchange','cart2','diagram-3'],
         menu_icon="cast", default_index=0, orientation="vertical",
         styles={
