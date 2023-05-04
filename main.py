@@ -58,6 +58,7 @@ Note: The demos will open up in different tabs, after you click on the respectiv
 
 dict_links = {'AHP':'https://share.streamlit.io/shoebntu/ahp/main/Apps/app.py', \
     'Reliability Modelling':'https://share.streamlit.io/msundarv/rel_pm/main/shift_pm_app.py', \
+    'Long Term Reliability Model': 'https://ppplalala-wh-fastappx-appstreamlit-dashboardmain-3xbjo3.streamlit.app/', \
      'Spares forecasting':'https://share.streamlit.io/ppplalala-wh/streamlit_app/main/resrcOpt.py',\
        'Predictive Maintenance':'https://share.streamlit.io/dhesru/condition_monitoring/main.py', \
        'Anomaly Detector': 'https://dhesru-anomaly-detector-main-fy7he1.streamlit.app/',\
@@ -70,9 +71,9 @@ col1,col2 = st.columns([0.6,0.4])
 st.sidebar.image("./siemens_logo.png", width = 300)
 with st.sidebar:
     
-    selected = option_menu("", ["Menu", 'Reliability Modelling','Smart Diagnostics','Spares forecasting',\
+    selected = option_menu("", ["Menu", 'Reliability Modelling','Long Term Reliability Model','Smart Diagnostics','Spares forecasting',\
             'Predictive Maintenance','Anomaly Detector','Economic Optimal Life','Renewal Option Analysis','AHP'], 
-            icons=['house', 'calendar3','thermometer-sun','bar-chart',\
+            icons=['house', 'calendar3','clipboard-check','thermometer-sun','bar-chart',\
             'tools','activity','currency-exchange','cart2','diagram-3'],
         menu_icon="cast", default_index=0, orientation="vertical",
         styles={
