@@ -64,7 +64,7 @@ dict_links = {'AHP':'https://share.streamlit.io/shoebntu/ahp/main/Apps/app.py', 
        'Anomaly Detector': 'https://dhesru-anomaly-detector-main-fy7he1.streamlit.app/',\
            'Renewal Option Analysis':'https://share.streamlit.io/shoebntu/scheduling/moo_ahp.py', \
                'Economic Optimal Life':'https://share.streamlit.io/shoebntu/eol/main/EOL.py',\
-               'Smart Diagnostics':'https://share.streamlit.io/shoebntu/smart_rulemining/main/app_v2.py'
+               'Smart Diagnostics':'https://smart-rulemining.onrender.com/'
                }
 
 col1,col2 = st.columns([0.6,0.4])
