@@ -92,7 +92,7 @@ if 'Menu' not in selected:
             <font size="5"> Please click here to access {selected} app</font> </a>
     """,unsafe_allow_html=True)
         if selected == 'Reliability Modelling':
-            st.markdown("""<a style='display: block; text-align: left;' href=""" + 'https://reliability-demo.herokuapp.com' + f"""> \
+            st.markdown("""<a style='display: block; text-align: left;' href=""" + 'https://reliability.onrender.com/' + f"""> \
             <font size="5"> Please click here to access Time-based Maintenance app</font> </a>
     """,unsafe_allow_html=True)
     except:
