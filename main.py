@@ -57,7 +57,7 @@ Note: The demos will open up in different tabs, after you click on the respectiv
 #         'tools','currency-exchange','cart2','diagram-3'], menu_icon="cast", default_index=0)
 
 dict_links = {'AHP':'https://share.streamlit.io/shoebntu/ahp/main/Apps/app.py', \
-    'Reliability Modelling':'https://share.streamlit.io/msundarv/rel_pm/main/shift_pm_app.py', \
+    'Reliability Modelling':'https://reliability-pm.onrender.com/', \
     'Long Term Reliability Model': 'https://ppplalala-wh-fastappx-appstreamlit-dashboardmain-3xbjo3.streamlit.app/', \
      'Spares forecasting':'https://share.streamlit.io/ppplalala-wh/streamlit_app/main/resrcOpt.py',\
        'Predictive Maintenance':'https://share.streamlit.io/dhesru/condition_monitoring/main.py', \
